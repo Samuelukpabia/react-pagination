@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user{
+  background-color: rgb(14, 12, 12);
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+.paginate-btn{
+  width: 80%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+.paginate-btn a{
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.paginate-btn a:hover{
+ background-color: black;
+ color: white;
+}
+
+.active a{
+  background-color: black;
+  color: white;
+}
